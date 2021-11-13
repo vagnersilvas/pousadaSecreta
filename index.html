@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Secreta</title>
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +23,7 @@
             <ul class="navegacao">
                 <li><a href="#quartos">Quartos</a></li>
                 <li><a href="#mapa">Rota</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
             </ul>
 
         </nav>
@@ -33,31 +37,28 @@
 
             <div class="apresentacao">
                 <h1 class="tituloPrincipal">Pousada Secreta</h1>
-                <p class="descricao">A pousada reservada em Angra dos Reis</p>
+                <p>A pousada reservada em Angra dos Reis</p>
             </div>
 
         </section>
 
         <!-- quartos -->
         <section class="boasVindas" id="quartos">
-            <h2 class="titulo">Seja bem-vindo(a)!</h2>
-
+            <h2 class="tituloBoasVindas">
+                Seja bem-vindo(a)!
+            </h2>
             <p>Relaxe em nossa acomodações e curta o melhor de Angra dos Reis.</p>
-
             <p>Temos quartos para solteiro, casal ou família.</p>
-
         </section>
-
         <!-- navegação quartos-->
-
-        <section class="container-quartos"  >
+        <section class="container-quartos">
             <figure class="cardQuartos">
                 <img src="./assets/quarto-solteiro1.jpg" alt="cama solteiro">
 
                 <a href="" class="descricaoQuarto">Quantos de solteiro</a>
-            </figure >
+            </figure>
 
-            <figure class="cardQuartos meio">
+            <figure class="cardQuartos cardQuartosMeio">
                 <img src="./assets/quarto-casal1.jpg" alt="cama casal">
 
                 <a href="" class="descricaoQuarto">Quanto de Casal</a>
@@ -84,74 +85,81 @@
 
         <!-- Sobre a pousada-->
 
-        <section id="sobre">
-            <h2>Sobre a pousada!</h2>
+        <section id="Sobre">
 
-            <p>Conheça um pouco sobre nossa pousada</p>
+            <div id="sobrePousada">
+                <h2>Sobre a pousada!</h2>
+                <p>Conheça um pouco sobre nossa pousada</p>
+            </div>
 
-            <h3>A pousada</h3>
+            <div id="Servicos">
+                <div class="card">
+                    <div class="descricaoItem">
+                        <h3>A pousada</h3>
+                        <p>A pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                    </div>
+                    <img src="./assets/img1.jpg" alt="">
+                </div>
 
-            <p>A pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                <div class="card">
+                    <div class="descricaoItem">
+                        <h3>Nossos quartos</h3>
+                        <p>
+                            Os quartos possuem TV de tela plana a cbo, cozinha compacta e área para refeições. Além
+                            disso,as unidades da Pousada Dev contam com ar-condicional e guarda-roupa.
+                        </p>
+                    </div>
+                    <img src="./assets/img2.jpg" alt="">
+                </div>
 
-            <img src="./assets/img1.jpg" alt="">
-        </section>
-
-        <!--sessão quartos-->
-
-        <section>
-            <h3>Nossos quartos</h3>
-
-            <p>Os quartos possuem TV de tela plana a cbo, cozinha compacta e área para refeições. Além disso, as
-                unidades da Pousada Dev contam com ar-condicional e guarda-roupa.</p>
-
-            <img src="./assets/img2.jpg" alt="">
-
-            <h3>Alimentação</h3>
-
-            <p>A pousada serev café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs.</p>
-
-            <img src="./assets/img3.jpg" alt="">
-        </section>
-
-        <!-- foto recepção -->
-
-        <section>
-            <h3>Recepção</h3>
-
-            <p>Nossa recepção fica aberta 24hrs</p>
-
-            <img src="./assets/img5.jpg" alt="">
+                <div class="card">
+                    <div class="descricaoItem">
+                        <h3>Alimentação</h3>
+                        <p>A pousada serev café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam
+                            24hrs.</p>
+                    </div>
+                    <img src="./assets/img3.jpg" alt="">
+                </div>
+                <!-- foto recepção -->
+                <div class="card">
+                    <div class="descricaoItem">
+                        <h3>Recepção</h3>
+                        <p>Nossa recepção fica aberta 24hrs</p>
+                    </div>
+                    <img src="./assets/img5.jpg" alt="">
+                </div>
+            </div>
         </section>
     </main>
 
     <!--inicio rodape-->
 
     <footer>
-        <h4>Entre em contato conosco:</h4>
-        <div id="rodape">
+        <div id="footer">
+            <h4>Entre em contato conosco:</h4>
 
-
-            <div class="card">
-                <a href="https://goo.gl/maps/wPAS58QxiTopxK6w7" target="_blank">Endereço Av. 123, 222 - Rio de Janeiro
-                    RJ</a>
+            <div class="item">
                 <img src="./assets/icones/endereco.png" alt="">
+                <p><a href="https://goo.gl/maps/wPAS58QxiTopxK6w7" target="_blank">Endereço Av. 123, 222 - Rio de
+                    Janeiro
+                    RJ</a></p>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="./assets/icones/telefone.png" alt="icone_telefone">
 
-                <p>Cel: 552100000000</p>
+                <p><a href="cel">cel 5521000000</a></p>
             </div>
-            <div class="card">
+            <div class="item">
+                <img src="./assets/icones/calendario.png" alt="">
                 <p><a href="https://www.booking.com/index.pt.html?aid=376377;label=booking-name-pt-row-bwMffLz*fdB8PTKNsC9tlgS267778091917:pl:ta:p1:p22.563.000:ac:ap:neg:fi:tikwd-65526620:lp9047775:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YXwxhKG0pUU-3JdcXtALQMg;ws=&gclid=Cj0KCQiA1pyCBhCtARIsAHaY_5eACMlmp-IZREWnSS3GtfxAVoG-FO61c-OX5n4EbIN8MP9i8ne4nn8aAkKPEALw_wcB"
                         target="_blank">Faça sua reserva pelo Booking.com</a></p>
-                <img src="./assets/icones/calendario.png" alt="">
             </div>
         </div>
         <!--rodape em si-->
 
-        <div id="foot">
-            &copy; Copyright - PousadaDev
+        <div id="DireitosReservados">
+            <p>&copy; Copyright - PousadaDev</p>
         </div>
     </footer>
 </body>
