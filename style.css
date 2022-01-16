@@ -19,6 +19,7 @@ body{
     font-size: 1.6rem;
     background: var(--white);
     font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
 }
 .logo-marca{
     font-weight: 700;
